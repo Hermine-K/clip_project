@@ -17,6 +17,8 @@ Construire, entraîner et évaluer une chaîne complète comprenant :
 
 Sous-ensemble du dataset **Flickr** contenant 600 images réparties en 4 catégories (ball, bike, dog, water) avec leurs descriptions textuelles associées.
 
+Les données ne sont pas incluses dans ce dépôt (fichiers trop volumineux). Le dataset Flickr est disponible sur [Kaggle](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset).
+
 ## Architecture
 
 ```
@@ -54,9 +56,9 @@ Texte (32 tokens) ──► SmallBERT   ──► L2 Norm ──┘
 ## Structure du projet
 
 ```
-├── data/                    # Dataset Flickr (images + captions)
 ├── rapport.pdf              # Rapport complet du projet
 ├── notebook.pdf             # Notebook d'analyse complet
+├── .gitignore
 ├── README.md
 ```
 
